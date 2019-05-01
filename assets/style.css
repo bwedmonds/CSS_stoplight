@@ -4,9 +4,9 @@ figure {
 }
 .stoplight-frame {
   margin: 20px;
-  width: 120px;
-  height: 300px;
-  color: black;
+  width: 100px;
+  height: 280px;
+  background-color: black;
   position: relative;
 }
 .stoplight-light {
@@ -23,9 +23,11 @@ left: 20px;
 }
 .stoplight-light.yellow {
   background-color: yellow;
-  top: 130px;
+  top: 110px;
 }
 .stoplight-light.green {
  background-color: green;
   top: 190px; 
+  border: 1px rgba(0, 0, 0, 0) solid;
+  box-shadow: 0 0 25px 0 green;
 }
